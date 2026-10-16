@@ -1,0 +1,12 @@
+
+body {
+    /*border box?*/
+}
+
+div {
+}
+
+/* rows need to be in flex style*/
+.row {
+    display: flex; /*double check this is standard*/
+}
