@@ -6,18 +6,22 @@ body {
     margin-bottom: 32px;
 }
 
-div {
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
 }
 
 /* rows need to be in flex style*/
 /* rows need to fill up available space */
-/* should rows shrink as window shrinks? */
-/* children should be properly spaced apart */
 .row {
-    display: flex; /*double check this is standard*/
-    justify-content: center;
-    align-content: center;
+    display: flex; 
+    flex: 1;
 }
 
 .square {
+    opacity: 0;
+    display: flex;
+    flex: 1;
 }
