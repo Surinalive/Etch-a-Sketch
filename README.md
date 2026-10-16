@@ -1,1 +1,3 @@
 # Etch-a-Sketch
+
+TOP project -> Finished project specifications. Maybe later if I have more time, I will personalize it...
