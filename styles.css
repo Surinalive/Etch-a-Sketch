@@ -1,12 +1,23 @@
 
 body {
-    /*border box?*/
+    margin-right: 32px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
 }
 
 div {
 }
 
 /* rows need to be in flex style*/
+/* rows need to fill up available space */
+/* should rows shrink as window shrinks? */
+/* children should be properly spaced apart */
 .row {
     display: flex; /*double check this is standard*/
+    justify-content: center;
+    align-content: center;
+}
+
+.square {
 }
